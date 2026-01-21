@@ -1,5 +1,5 @@
 import React from "react";
-import imagem from "../assets/img/about1.jpeg";
+import imagem from "../assets/img/about.jpeg";
 
 const About = () => {
   return (
@@ -21,7 +21,7 @@ const About = () => {
         <img
           src={imagem}
           alt="Sobre mim"
-          className="w-full h-[280px] object-cover"
+          className="w-full h-[200px] object-cover"
         />
       </div>
 

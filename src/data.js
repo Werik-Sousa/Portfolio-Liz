@@ -1,18 +1,22 @@
 //  icons
 import {
-  FiYoutube,
   FiInstagram,
-  FiGithub,
-  FiDribbble,
+  FiLinkedin,
+  FiFigma,
 } from 'react-icons/fi';
+import { SlSocialBehance } from "react-icons/sl";
+
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from './assets/img/projects/assaltos.png';
+import Project2 from './assets/img/projects/batidas.png';
+import Project3 from './assets/img/projects/bilhete.png';
+import Project4 from './assets/img/projects/unico.png';
+import Project5 from './assets/img/projects/kicks.png';
+import Project6 from './assets/img/projects/key.png';
+import Project7 from './assets/img/projects/igor.png';
+import Project8 from './assets/img/projects/capa.png';
+
 
 
 // navigation
@@ -20,42 +24,47 @@ export const navigation = [
   {
     name: 'Projetos',
     href: 'projetos',
+    activeClass: 'active-projects', // azul
   },
   {
     name: 'Posters',
     href: 'posters',
+    activeClass: 'active-posters', // amarelo
   },
   {
     name: 'TASS',
     href: 'home',
+    activeClass: 'active-home', // branco
   },
   {
     name: 'Sobre mim',
     href: 'about',
+    activeClass: 'active-about', // vermelho
   },
   {
     name: 'Contato',
     href: 'contact',
+    activeClass: 'active-contact', // roxo
   },
 ];
 
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: '',
+    icon: <SlSocialBehance />,
+    href: 'https://www.behance.net/tassiascheiner/moodboards',
   },
   {
     icon: <FiInstagram />,
-    href: '',
+    href: 'https://www.instagram.com/tassia.liz/',
   },
   {
-    icon: <FiGithub />,
-    href: '',
+    icon: <FiLinkedin />,
+    href: 'https://www.linkedin.com/in/t%C3%A1ssia-liz-scheiner-4a826833b/',
   },
   {
-    icon: <FiDribbble />,
-    href: '',
+    icon: <FiFigma />,
+    href: 'https://www.instagram.com/tassia.liz/',
   },
 ];
 
@@ -77,10 +86,17 @@ export const projectsGrid = [
   },
   {
     id: 3,
-    title: 'Nissan',
+    title: 'Kicks Key',
     year: "2025",
     link: '#',
     images: [Project5, Project6],
+  },
+  {
+    id: 3,
+    title: 'àlbum IGOR',
+    year: "2025",
+    link: '#',
+    images: [Project7, Project8],
   },
 ];
 

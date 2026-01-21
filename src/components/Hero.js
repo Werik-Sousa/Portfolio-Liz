@@ -28,7 +28,7 @@ const Hero = () => {
                 LIZ<span className="font-bold inline-block ml-3
                  -translate-y-2 sm:-translate-y-3 md:-translate-y-4 lg:text-7xl text-5xl md:text-6xl">✶ 
                 </span><br />
-                SCHIENER.
+                SCHEINER.
               </h1>
 
               {/* SOCIAL — MOBILE ONLY */}

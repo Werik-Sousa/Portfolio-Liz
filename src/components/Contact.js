@@ -1,8 +1,8 @@
 import React from "react";
 
-import insta from "../assets/img/contact/instagram.png";
-import be from "../assets/img/contact/behance.png";
-import link from "../assets/img/contact/linkedin.png";
+import insta from "../assets/img/contact/instagram.jpeg";
+import be from "../assets/img/contact/behance.jpeg";
+import link from "../assets/img/contact/linkedin.jpeg";
 
 const Contact = () => {
   return (
@@ -101,7 +101,7 @@ const Contact = () => {
             <img
               src={be}
               alt="Behance"
-              className="w-10 h-10 object-contain"
+              className="w-10 h-10 rounded-md object-contain"
             />
           </a>
 
@@ -110,7 +110,7 @@ const Contact = () => {
             <img
               src={link}
               alt="LinkedIn"
-              className="w-10 h-10 object-contain"
+              className="w-10 h-10 rounded-md object-contain"
             />
           </a>
 
@@ -119,7 +119,7 @@ const Contact = () => {
             <img
               src={insta}
               alt="Instagram"
-              className="w-10 h-10 object-contain"
+              className="w-10 h-10 rounded-md object-contain"
             />
           </a>
         </div>

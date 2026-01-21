@@ -31,7 +31,7 @@ const Nav = () => {
         {navigation.map((item, index) => (
           <li key={index}>
             <Link
-              activeClass="active"
+              activeClass={item.activeClass}
               to={item.href}
               spy
               smooth

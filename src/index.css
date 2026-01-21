@@ -16,7 +16,40 @@
   font-variation-settings:
     "wdth" 100;
 }
-.active {
+.active-projects {
+  color: #0b1bb1; /* blue-500 */
+  text-transform: uppercase;
+  transform: scale(1.2);
+  letter-spacing: 0.15em;
+  opacity: 1;
+}
+
+.active-posters {
+  color: #facc15; /* yellow-400 */
+  text-transform: uppercase;
+  transform: scale(1.2);
+  letter-spacing: 0.15em;
+  opacity: 1;
+}
+
+.active-home {
+  color: #ffffff;
+  text-transform: uppercase;
+  transform: scale(1.2);
+  letter-spacing: 0.15em;
+  opacity: 1;
+}
+
+.active-about {
+  color: #ef4444; /* red-500 */
+  text-transform: uppercase;
+  transform: scale(1.2);
+  letter-spacing: 0.15em;
+  opacity: 1;
+}
+
+.active-contact {
+  color: #3f1a7c; /* green-500 */
   text-transform: uppercase;
   transform: scale(1.2);
   letter-spacing: 0.15em;
