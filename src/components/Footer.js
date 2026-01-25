@@ -6,11 +6,11 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-2 flex flex-col sm:flex-row justify-between items-center gap-2 text-sm text-white/60 font-anton uppercase tracking-wider">
         
         <span>
-          © {new Date().getFullYear()} desenvolvimento por <span className="text-white">W</span>
+          © {new Date().getFullYear()} desenvolvido por <span className="text-white">WS</span>
         </span>
 
         <span>
-          design por <span className="text-white">T</span>
+          design por <span className="text-white"><a href="#home">TLS</a></span>
         </span>
 
       </div>

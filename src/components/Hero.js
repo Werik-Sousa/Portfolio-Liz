@@ -26,8 +26,12 @@ const Hero = () => {
               >
                 TASSIA<br />
                 LIZ<span className="font-bold inline-block ml-3
-                 -translate-y-2 sm:-translate-y-3 md:-translate-y-4 lg:text-7xl text-5xl md:text-6xl">✶ 
-                </span><br />
+                 -translate-y-2 sm:-translate-y-3 md:-translate-y-4 lg:text-7xl text-5xl md:text-6xl">  <a
+                href="../Lab"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cursor-pointer hover:scale-110 transition"
+              >✶ </a></span><br />
                 SCHEINER.
               </h1>
 

@@ -1,30 +1,17 @@
-import React from 'react';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-// import components
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Brands from './components/Brands';
-import About from './components/About';
-import Projects from './components/Projects';
-import Galery from './components/Galery';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
+import Home from "./pages/Home";
+import Lab from "./pages/Lab";
 
 const App = () => {
   return (
-  <div>
-    <Header/>
-    <Hero/>
-    <Brands/>
-    <Projects/>
-    <Brands/>
-    <Galery/>
-    <Brands/>
-    <About/>
-    <Brands/>
-    <Contact/> 
-    <Footer/>
-  </div>
-)};
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/lab" element={<Lab />} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
 
 export default App;

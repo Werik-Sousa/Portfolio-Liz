@@ -3,9 +3,22 @@ import {
   FiInstagram,
   FiLinkedin,
   FiFigma,
+  FiDownload
 } from 'react-icons/fi';
 import { SlSocialBehance } from "react-icons/sl";
 
+// gallery / lab backgrounds
+import Gal1 from './assets/img/galery/poster1.webp';
+import Gal2 from './assets/img/galery/poster2.webp';
+import Gal3 from './assets/img/galery/poster3.webp';
+import Gal4 from './assets/img/galery/poster4.webp';
+import Gal5 from './assets/img/galery/poster5.webp';
+import Gal9 from './assets/img/galery/poster6.webp';
+
+import Gal6 from './assets/lab/meus/p&b.png';
+import Gal8 from './assets/lab/meus/rosa.png';
+import Gal10 from './assets/lab/meus/black.png';
+import Gal11 from './assets/lab/meus/white.png';
 
 // projects images
 import Project1 from './assets/img/projects/assaltos.png';
@@ -100,3 +113,56 @@ export const projectsGrid = [
   },
 ];
 
+// lab backgrounds
+export const labBackgrounds = [
+  {
+    id: 1,
+    image: Gal1,
+    name: 'Studio',
+  },
+  {
+    id: 2,
+    image: Gal2,
+    name: 'Nature',
+  },
+  {
+    id: 3,
+    image: Gal3,
+    name: 'Urban',
+  },
+  {
+    id: 4,
+    image: Gal4,
+    name: 'Urban',
+  },
+  {
+    id: 9,
+    image: Gal9,
+    name: 'Urban',
+  },
+  {
+    id: 5,
+    image: Gal5,
+    name: 'Urban',
+  },
+  {
+    id: 6,
+    image: Gal6,
+    name: 'preto e branco',
+  },
+  {
+    id: 8,
+    image: Gal8,
+    name: 'casa rosa',
+  },
+  {
+    id: 10,
+    image: Gal10,
+    name: 'black',
+  },
+  {
+    id: 11,
+    image: Gal11,
+    name: 'white',
+  }
+];
