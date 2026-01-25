@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { toPng } from 'html-to-image';
 import { FiDownload } from "react-icons/fi";
 
@@ -193,6 +193,7 @@ const LabCanvas = ({
           >
             <img
               src={item.src}
+              alt=""
               draggable={false}
               onMouseDown={(e) => onDragStart(e, item.id)}
               className="w-full h-full cursor-move object-contain select-none"

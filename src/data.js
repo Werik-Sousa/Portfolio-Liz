@@ -2,8 +2,7 @@
 import {
   FiInstagram,
   FiLinkedin,
-  FiFigma,
-  FiDownload
+  FiFigma
 } from 'react-icons/fi';
 import { SlSocialBehance } from "react-icons/sl";
 
