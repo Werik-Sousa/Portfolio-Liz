@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ScrollFadeUp from "../components/animations/ScrollFadeUp";
 
 // IMAGENS
 import poster1 from "../assets/img/galery/poster1.webp";
@@ -36,28 +37,30 @@ const Galery = () => {
 
         {/* GRID */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {images.map((img, index) => (
+        {images.map((img, index) => (
+          <ScrollFadeUp key={index} delay={index * 0.08}>
             <button
-              key={index}
               onClick={() => setSelectedImage(img)}
-              className="group relative overflow-hidden aspect-[6/5] bg-black"
+              className="
+              group relative overflow-hidden aspect-[6/5] bg-black
+              [perspective:400px]
+            "
             >
               <img
                 src={img}
                 alt={`Poster ${index + 1}`}
                 className="
-                  w-full 
-                  h-full 
-                  object-cover 
-                  transition-transform 
-                  duration-500 
-                  group-hover:scale-105
-                "
+                w-full h-full object-cover
+                transition-transform duration-500 ease-out
+                group-hover:scale-105
+                sm:group-hover:[transform:rotateX(8deg)_rotateY(-8deg)_scale(1.06)]
+              "
               />
             </button>
-          ))}
-        </div>
+          </ScrollFadeUp>
+        ))}
       </div>
+        </div>
 
       {/* MODAL */}
       {selectedImage && (

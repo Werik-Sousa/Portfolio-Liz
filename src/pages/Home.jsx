@@ -1,4 +1,6 @@
 import React from "react";
+import Spotlight from "../components/animations/Spotlight";
+
 
 import Header from "../components/Header";
 import Hero from "../components/Hero";
@@ -11,7 +13,8 @@ import Footer from "../components/Footer";
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-black">
+      <Spotlight />
       <Header />
       <Hero />
       <Brands />

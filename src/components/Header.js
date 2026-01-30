@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <header
       className={`${
-        bg ? "bg-black h-16" : "h-16"
+        bg ? "bg-black/90 h-12" : "h-14"
       } bg-black fixed top-0 w-full z-30 flex items-center transition-all duration-300`}
     >
       {/* DESKTOP NAV CENTRAL */}

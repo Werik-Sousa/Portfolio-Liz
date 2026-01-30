@@ -1,5 +1,7 @@
 import React from "react";
 import imagem from "../assets/img/about.jpeg";
+import video from "../assets/img/media.mp4";
+
 
 const About = () => {
   return (
@@ -17,12 +19,24 @@ const About = () => {
       </div>
 
       {/* IMAGE — FULL WIDTH */}
-      <div className="w-screen">
+      <div className="w-screen sm:block hidden">
         <img
           src={imagem}
           alt="Sobre mim"
           className="w-full h-[200px] object-cover"
         />
+      </div>
+
+      {/* viceo — only sm */}
+      <div className="w-screen sm:hidden">
+      <video
+        src={video}
+        className="w-full h-[200px] object-cover"
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
       </div>
 
       {/* TEXT */}

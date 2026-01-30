@@ -14,9 +14,10 @@ const Nav = () => {
           duration-300
 
           gap-6
-          sm:gap-12
-          md:gap-20
-          lg:gap-28
+          sm:gap-16
+          md:gap-24
+          lg:gap-32
+          xl:gap-40
 
           text-[11px]
           sm:text-[16px]

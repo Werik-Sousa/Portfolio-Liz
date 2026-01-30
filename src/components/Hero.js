@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row items-center h-full pt-8">
 
           {/* LEFT — NAME */}
-          <div className="font-anton flex-1 flex flex-col justify-center items-center sm:items-start text-black text-center sm:text-left">
+          <div className="xl:mx-40 sm:mx-4 lg:mx-20 font-anton flex-1 flex flex-col justify-center items-center sm:items-start text-black text-center sm:text-left">
             <h1
               className="
                 font-anton
@@ -42,8 +42,8 @@ const Hero = () => {
             </div>
 
           {/* RIGHT — TEXT (DESKTOP ONLY) */}
-          <div className=" hidden sm:flex flex-1 flex-col justify-end items-end text-right text-gray-800 h-full">
-            <p className="roboto-600 uppercase lg:text-xl md:text-lg sm:text-sm ">
+          <div className=" hidden sm:flex flex-1 flex-col justify-end items-end text-right text-gray-800 h-full sm:mx-4 lg:mx-20 xl:mx-40">
+            <p className="roboto-600 text-bold uppercase lg:text-xl md:text-lg sm:text-sm ">
               Se você está aqui, a gente<br/> deve ser curioso igual.<br/> Então aproveita o momento<br/> e dá um bizu em alguns dos <br/> meus projetos
             </p>
 
