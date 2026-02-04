@@ -31,7 +31,7 @@ const Projects = () => {
           <ScrollReveal
             key={project.id}
             direction={reverse ? "right" : "left"}
-            delay={index * 120} // 🔥 delay progressivo
+            delay={index * 120} //delay progressivo
           >
             <div
               className="bg-zinc-900 rounded-md grid grid-cols-1 md:grid-cols-12 gap-8 items-center w-full"

@@ -77,7 +77,7 @@ tryPlay();
     camera.position.set(0, 0, 10);
     scene.add(camera);
 
-    // luzes (StandardMaterial fica melhor)
+    // luzes 
     scene.add(new THREE.AmbientLight(0xffffff, 0.9));
     const light = new THREE.DirectionalLight(0xffffff, 0.6);
     light.position.set(10, 10, 10);
@@ -86,7 +86,7 @@ tryPlay();
     // geometria
     const geometry = new THREE.BoxGeometry(BOX_SIZE, BOX_SIZE, BOX_SIZE);
 
-    // ✅ TEXTURA
+    // TEXTURA
     const textureLoader = new THREE.TextureLoader();
     const cubeTexture = textureLoader.load(cubeImg);
     cubeTexture.colorSpace = THREE.SRGBColorSpace;
@@ -95,7 +95,7 @@ tryPlay();
     cubeTexture.wrapS = THREE.RepeatWrapping;
     cubeTexture.wrapT = THREE.RepeatWrapping;
 
-    // quanto MAIOR o número, MENOR a imagem aparece no cubo
+    //quanto MAIOR o número, MENOR a imagem aparece no cubo
     cubeTexture.repeat.set(2, 2); 
 
 
@@ -105,7 +105,7 @@ tryPlay();
     const clearBoxes = () => {
       meshes.forEach((m) => {
         scene.remove(m);
-        m.material.dispose(); // ✅ não dispose da geometria compartilhada
+        m.material.dispose();
       });
       meshes = [];
 
@@ -156,7 +156,7 @@ tryPlay();
         world.addBody(body);
         physicsBoxes.push(body);
 
-        // ✅ material com textura
+        // cor da textura
         const tintColors = [0x2fff00, 0xff7b12, 0xffffff];
 
         const material = new THREE.MeshStandardMaterial({
@@ -296,13 +296,11 @@ tryPlay();
         inset: 0,
         overflow: "hidden",
 
-        // 🖼️ duas imagens de fundo em camadas
         backgroundImage: 
         `url(${fundo}), radial-gradient(ellipse at center, #000 40%, #031b03 65%, #052b05 80%, #063d06 100%)    `,
         backgroundRepeat: "no-repeat, no-repeat",
         backgroundPosition:"center center, center",
-        backgroundSize: "500px, cover", 
-        // ↑ cube grande em cima, p1 menor no centro
+        backgroundSize: "lg:800px sm:500px, cover", 
       }}
     >
 
