@@ -19,7 +19,7 @@ const Brands = () => {
       xRef.current -= 0.4; // velocidade da animação
 
       if (trackRef.current) {
-        const width = trackRef.current.scrollWidth / 2;
+        const width = trackRef.current.scrollWidth / 3.5;
 
         if (Math.abs(xRef.current) >= width) {
           xRef.current = 0;

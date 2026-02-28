@@ -105,15 +105,6 @@ const Contact = () => {
             />
           </a>
 
-          <a href="https://www.linkedin.com/in/t%C3%A1ssia-liz-scheiner-4a826833b/" target="_blank"
-            rel="noopener noreferrer" className="hover:opacity-70 transition">
-            <img
-              src={link}
-              alt="LinkedIn"
-              className="w-10 h-10 rounded-md object-contain"
-            />
-          </a>
-
           <a href="https://www.instagram.com/tassia.liz/" target="_blank"
             rel="noopener noreferrer" className="hover:opacity-70 transition">
             <img
@@ -122,6 +113,16 @@ const Contact = () => {
               className="w-10 h-10 rounded-md object-contain"
             />
           </a>
+
+          <a href="https://www.linkedin.com/in/t%C3%A1ssia-liz-scheiner-4a826833b/" target="_blank"
+            rel="noopener noreferrer" className="hover:opacity-70 transition">
+            <img
+              src={link}
+              alt="LinkedIn"
+              className="w-10 h-10 rounded-md object-contain"
+            />
+          </a>
+          
         </div>
     </div>
     </section>

@@ -1,8 +1,7 @@
 //  icons
 import {
   FiInstagram,
-  FiLinkedin,
-  FiFigma
+  FiLinkedin
 } from 'react-icons/fi';
 import { SlSocialBehance } from "react-icons/sl";
 
@@ -73,10 +72,6 @@ export const social = [
   {
     icon: <FiLinkedin />,
     href: 'https://www.linkedin.com/in/t%C3%A1ssia-liz-scheiner-4a826833b/',
-  },
-  {
-    icon: <FiFigma />,
-    href: 'https://www.instagram.com/tassia.liz/',
   },
 ];
 
