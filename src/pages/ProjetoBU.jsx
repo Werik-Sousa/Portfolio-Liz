@@ -16,11 +16,11 @@ const ProjectBU = () => {
     <div className="bg-white text-black min-h-screen">
       <section className="">
 
-        <div className="h-[100vh]">
+        <div>
           <img
             src={gif1}
             alt="Bilhete Único"
-            className="rounded-lg object-cover w-full"
+            className="h-[100vh] w-full rounded-lg object-cover "
           />
         </div>
 

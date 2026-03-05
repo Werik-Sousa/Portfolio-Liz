@@ -15,9 +15,9 @@ const Nav = () => {
 
           gap-6
           sm:gap-20
-          md:gap-[100px]
-          lg:gap-[150px]
-          xl:gap-[200px]
+          md:gap-24
+          lg:gap-36
+          xl:gap-52
 
           text-[11px]
           sm:text-[16px]
