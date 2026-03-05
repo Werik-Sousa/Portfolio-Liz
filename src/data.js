@@ -1,4 +1,5 @@
 //  icons
+
 import {
   FiInstagram,
   FiLinkedin
@@ -81,28 +82,28 @@ export const projectsGrid = [
     id: 1,
     title: 'App FBC',
     year: "2025",
-    link: '#',
+    link: "/ProjetoFBC",
     images: [Project1, Project2],
   },
   {
     id: 2,
     title: 'App Bilhete Único',
     year: "2025",
-    link: '#',
+    link: "/ProjetoBU",
     images: [Project3, Project4],
   },
   {
     id: 3,
     title: 'Kicks Key',
     year: "2025",
-    link: '#',
+    link: "/Projetokicks",
     images: [Project5, Project6],
   },
   {
-    id: 3,
+    id: 4,
     title: 'àlbum IGOR',
     year: "2025",
-    link: '#',
+    link: "/ProjetoIgor",
     images: [Project7, Project8],
   },
 ];

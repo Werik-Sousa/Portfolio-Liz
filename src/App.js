@@ -1,18 +1,26 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Suspense, lazy } from "react";
 
-
-import Home from "./pages/Home";
-import Lab from "./pages/Lab";
-import Cubes from "./pages/PhysicsCubes";
+const Home = lazy(() => import("./pages/Home"));
+const ProjetoBU = lazy(() => import("./pages/ProjetoBU"));
+const ProjetoFBC = lazy(() => import("./pages/ProjetoFBC"));
+const ProjetoKicks = lazy(() => import("./pages/ProjetoKicks"));
+const ProjetoIgor = lazy(() => import("./pages/ProjetoIgor"));
+const Lab = lazy(() => import("./pages/Lab"));
 
 const App = () => {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/lab" element={<Lab />} />
-        <Route path="/cubes" element={<Cubes />} />
-      </Routes>
+      <Suspense fallback={<div>Carregando...</div>}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/ProjetoBU" element={<ProjetoBU />} />
+          <Route path="/ProjetoFBC" element={<ProjetoFBC />} />
+          <Route path="/ProjetoKicks" element={<ProjetoKicks />} />
+          <Route path="/ProjetoIgor" element={<ProjetoIgor />} />
+          <Route path="/lab" element={<Lab />} />
+        </Routes>
+      </Suspense>
     </BrowserRouter>
   );
 };
