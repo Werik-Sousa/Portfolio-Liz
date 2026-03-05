@@ -14,10 +14,9 @@ import Gal4 from './assets/img/galery/poster4.webp';
 import Gal5 from './assets/img/galery/poster5.webp';
 import Gal9 from './assets/img/galery/poster6.webp';
 
-import Gal6 from './assets/lab/meus/p&b.png';
-import Gal8 from './assets/lab/meus/rosa.png';
 import Gal10 from './assets/lab/meus/black.png';
 import Gal11 from './assets/lab/meus/white.png';
+import Gal6 from './assets/lab/meus/praia.png';
 
 // projects images
 import Project1 from './assets/img/projects/assaltos.png';
@@ -143,12 +142,7 @@ export const labBackgrounds = [
   {
     id: 6,
     image: Gal6,
-    name: 'preto e branco',
-  },
-  {
-    id: 8,
-    image: Gal8,
-    name: 'casa rosa',
+    name: 'praia',
   },
   {
     id: 10,
