@@ -1,7 +1,7 @@
 import React from "react";
 //import { Link } from "react-router-dom";
 import gif1 from "../assets/img/imgBU/Gif - Mockup Animado - Bilhete Único 1.gif";
-import gif2 from "../assets/img/imgBU/Gif - Mockup Animado - Bilhete Único 2.gif";
+import gif2 from "../assets/img/imgBU/gifTelaCadastro.gif";
 import gif3 from "../assets/img/imgBU/Gif - Ilustrações - BIlhete Único 1.gif";
 import gif4 from "../assets/img/imgBU/Gif - Cartão - Bilhete Único.gif";
 
@@ -73,11 +73,17 @@ const ProjectBU = () => {
         </div>
 
         <div>
+          <a
+                href="../ProjectBU"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cursor-pointer hover:scale-110 transition">
           <img
             src={final}
             alt="Bilhete Único"
             className="rounded-lx object-cover w-full"
           />
+          </a>
         </div>
 
       </section>

@@ -1,5 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Suspense, lazy } from "react";
+import ProjectBU from "./pages/ProjectBU";
+
 
 const Home = lazy(() => import("./pages/Home"));
 const ProjetoBU = lazy(() => import("./pages/ProjetoBU"));
@@ -15,6 +17,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/ProjetoBU" element={<ProjetoBU />} />
+          <Route path="/ProjectBU" element={<ProjectBU />} />
           <Route path="/ProjetoFBC" element={<ProjetoFBC />} />
           <Route path="/ProjetoKicks" element={<ProjetoKicks />} />
           <Route path="/ProjetoIgor" element={<ProjetoIgor />} />
