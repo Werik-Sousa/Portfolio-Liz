@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logo from "../../assets/img/imgBU/logoPretoSemFundo.png"
 import ilu from "../../assets/img/imgBU/Gif - Ilustrações - BIlhete Único 1.gif";
 import ponte from "../../assets/img/imgBU/ponteE.png";
 import sesc from "../../assets/img/imgBU/sesc.png";
@@ -26,7 +27,21 @@ const Illustrations = () => {
       <div className="relative">
         <div className="bg-[#faf5f2]">
           {/* TÍTULO COM GIF */}
-          <div className="mb-10">
+          <div className="block lg:hidden grid lg:grid-cols-2 grid-cols-1 sm:p-10 p-5">
+             {/* TÍTULO */}
+          <div className="flex items-center mb-4 gap-2 lg:absolute top-14 right-8">
+            <img src={logo} alt="logo" className="md:w-20 w-16"/>
+            <h2 className="montserrat-medio xl:text-5xl lg:text-4xl sm:text-3xl text-2xl font-bold text-[#171717]">Nossas Ilustrações</h2>
+          </div>
+
+           {/* TEXTO EXPLICATIVO */}
+          <p className="montserrat-regular xl:text-base md:text-sm text-xs leading-tight text-[#171717] mb-10">
+            Estruturando para agilidade, o fluxo conduz o usuário pelas principais ações, como consultar saldo, 
+            recarregar e validar créditos de forma Clara e direta, tornando a experiência mais eficiente para o usuário no dia a dia.
+          </p>
+
+        </div> 
+          <div className="hidden lg:block mb-10">
             <img src={ilu} alt="logo" className="w-full"/>
           </div>
 
@@ -70,7 +85,7 @@ const Illustrations = () => {
               </button>
             </div>
 
-            {/* INDICADORES (OPCIONAL) */}
+            {/* INDICADORES */}
             <div className="flex justify-center mt-4 gap-2">
               {images.map((_, index) => (
                 <button

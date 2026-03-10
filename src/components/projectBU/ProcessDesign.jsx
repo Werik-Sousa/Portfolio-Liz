@@ -27,7 +27,7 @@ const ProcessDesign = () => {
           {/* ETAPAS */}
         <div className="flex flex-row lg:flex-col items-start lg:items-center">
             <div className="hidden lg:block lg:mb-2 mb-0"> 
-                <img src={regua} alt="logo" className="w-full rotate-90 lg:rotate-0" /> 
+                <img src={regua} alt="logo" className="w-full" /> 
             </div>
           </div>
         </div>

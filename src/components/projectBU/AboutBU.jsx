@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section className="w-full bg-[#faf5f2] flex items-center justify-center">
       
-      <div className="bg-[#E20E17] w-full rounded-se-[40px] rounded-ss-[40px]  p-10 grid grid-cols-1 lg:grid-cols-3 gap-10 text-[#faf5f2]">
+      <div className="bg-[#E20E17] w-full rounded-se-[40px] rounded-ss-[40px] sm:p-10 p-5 grid grid-cols-1 lg:grid-cols-3 gap-10 text-[#faf5f2]">
         <div className="flex flex-col gap-2">
 
           <div className="flex items-center mb-4 gap-2">
