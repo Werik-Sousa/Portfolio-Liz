@@ -88,7 +88,7 @@ export const projectsGrid = [
     id: 2,
     title: 'App Bilhete Único',
     year: "2025",
-    link: "/ProjetoBU",
+    link: "/ProjectBU",
     images: [Project3, Project4],
   },
   {

@@ -61,7 +61,7 @@ export default function MoodBoard() {
         </div>
 
         {/* TEXTO DESCRITIVO */}
-        <div className="montserrat-regular xl:text-base md:text-sm text-xs text-center max-w-4xl mx-auto leading-relaxed">
+        <div className="montserrat-regular xl:text-base md:text-sm text-xs text-center max-w-4xl mx-auto leading-relaxed mb-4">
           <p>
             O moodboard foi construído a partir de elementos da cidade de <strong>São Paulo</strong>, incorporando referências
             visuais já reconhecidas no cotidiano urbano. Arquitetura modernista, sinalizações, mapas de metrô e a tipografia urbana

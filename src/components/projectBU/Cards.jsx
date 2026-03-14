@@ -13,9 +13,10 @@ export default function Cards() {
           </div>
 
           <div className="montserrat-regular xl:text-xl lg:text-lg md:text-base text-sm px-10 text-center text-[#faf5f2]">
-            <p>O moodboard foi construido a partir de elementos de cidade de <strong>São Paulo</strong>, incorporando referência
-            visuais já reconhecidas no cotidiano urbano. Arquitetura modernista, sinalizações, mapas de metrô e a tipografia urbana
-            serviram como base para construir uma <strong>identidade conectada ao contexto real do usuário</strong></p>
+            <p>Os cartões foram desenhados mantendo a estrutura original, preservando familiaridade e facilidade de identificação. 
+              A atualização visual incorpora uma nova paleta de cores e <strong>ilustrações inspiradas na cidade de São Paulo. </strong> 
+              Além disso, houve aprimoramento na hierarquia e legibilidade das informações, garantindo melhor vezes 
+              visualização dos dados no uso cotidiano.</p>
           </div>
 
         <div className="flex flex-row lg:flex-col items-start lg:items-center">

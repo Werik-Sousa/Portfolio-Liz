@@ -1,4 +1,4 @@
-import heroImg from "../../assets/img/imgBU/Gif - Mockup Animado - Bilhete Único 1.gif";
+import heroImg from "../../assets/img/imgBU/bilheteÚnico.gif";
 import logo from "../../assets/img/imgBU/logoPretoSemFundo.png";
 
 const HeroBU = () => {

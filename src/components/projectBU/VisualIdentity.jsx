@@ -15,13 +15,11 @@ const VisualIdentity = () => {
             <h2 className="montserrat-medio xl:text-5xl md:text-4xl sm:text-3xl text-2xl font-bold text-[#faf5f2]">Identidade Visual</h2>
           </div>
 
-           {/* TEXTO EXPLICATIVO */}
             <p className="montserrat-regular xl:text-base sm:text-sm text-xs  leading-tight lg:text-end text-[#faf5f2]">
-              O fluxo foi desenvolvido para ser <strong>direto e intuitivo, </strong> 
-              reduzindo etapas e facilitando o preenchimento das informações essenciais. 
-              <strong> A estrutura prioriza clareza e agilidade, </strong> 
-               permitindo que o usuário conclua o processo rapidamente, com a 
-               possibilidade de irritar e atualizar seus dados posteriormente.
+              O rebranding do logo foi desenvolvido com o objetivo de preservar a essência e o 
+              reconhecimento da <strong>marca original, </strong>trazendo uma abordagem mais simples, moderna e versátil. A nova construção mantém a 
+              ideia central do símbolo, mas com os traços mais limpos e equilibrados, garantindo maior elegibilidade em diferentes 
+              escalas e contextos.
             </p>
         </div> 
 

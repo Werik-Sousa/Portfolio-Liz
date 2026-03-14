@@ -18,7 +18,7 @@ export default function FlowConstruction() {
            {/* TEXTO EXPLICATIVO */}
           <p className="montserrat-regular xl:text-base md:text-sm text-xs leading-tight text-[#faf5f2] mb-10">
             Estruturando para agilidade, o fluxo conduz o usuário pelas principais ações, como consultar saldo, 
-            recarregar e validar créditos de forma Clara e direta, tornando a experiência mais eficiente para o usuário no dia a dia.
+            recarregar e validar créditos de forma clara e direta, tornando a experiência mais eficiente para o usuário no dia a dia.
           </p>
 
         </div> 

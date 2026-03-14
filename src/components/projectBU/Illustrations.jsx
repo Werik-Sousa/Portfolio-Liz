@@ -27,7 +27,7 @@ const Illustrations = () => {
       <div className="relative">
         <div className="bg-[#faf5f2]">
           {/* TÍTULO COM GIF */}
-          <div className="block lg:hidden grid lg:grid-cols-2 grid-cols-1 sm:p-10 p-5">
+          <div className="lg:hidden grid lg:grid-cols-2 grid-cols-1 sm:p-10 p-5">
              {/* TÍTULO */}
           <div className="flex items-center mb-4 gap-2 lg:absolute top-14 right-8">
             <img src={logo} alt="logo" className="md:w-20 w-16"/>
@@ -36,8 +36,8 @@ const Illustrations = () => {
 
            {/* TEXTO EXPLICATIVO */}
           <p className="montserrat-regular xl:text-base md:text-sm text-xs leading-tight text-[#171717] mb-10">
-            Estruturando para agilidade, o fluxo conduz o usuário pelas principais ações, como consultar saldo, 
-            recarregar e validar créditos de forma Clara e direta, tornando a experiência mais eficiente para o usuário no dia a dia.
+            As ilustrações representam marcas icônicos na cidade de São Paulo, reforçando a conexão do projeto com o cotidiano Urbano. 
+            Elas ajudam a construir um sistema visual emblemático aproximando o usuário do Bilhete Único com a cidade.
           </p>
 
         </div> 

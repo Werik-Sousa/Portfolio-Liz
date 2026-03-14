@@ -1,6 +1,6 @@
 import React from "react";
 //import { Link } from "react-router-dom";
-import gif1 from "../assets/img/imgBU/Gif - Mockup Animado - Bilhete Único 1.gif";
+import gif1 from "../assets/img/imgBU/bilheteÚnico.gif";
 import gif2 from "../assets/img/imgBU/gifTelaCadastro.gif";
 import gif3 from "../assets/img/imgBU/Gif - Ilustrações - BIlhete Único 1.gif";
 import gif4 from "../assets/img/imgBU/Gif - Cartão - Bilhete Único.gif";

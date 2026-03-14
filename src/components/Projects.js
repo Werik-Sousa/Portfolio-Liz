@@ -34,7 +34,7 @@ const Projects = () => {
                 to={project.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-zinc-900 rounded-md grid grid-cols-1 md:grid-cols-12 gap-8 items-center w-full cursor-pointer hover:scale-[1.01] transition-all duration-300 block"
+                className="bg-zinc-900 rounded-md grid grid-cols-1 md:grid-cols-12 gap-8 items-center w-full cursor-pointer hover:scale-[1.01] transition-all duration-300"
               >
                 {/* IMAGES */}
                 <div
